@@ -1,0 +1,72 @@
+name: Cache GitHub Readme Stats
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "0 0 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  download-assets:
+    runs-on: ubuntu-latest
+    name: Download assets
+
+    steps:
+      - name: Download stats
+        run: curl 'https://carlosvinicius-readme-stats.vercel.app/api?username=carlosvinicius&show_icons=true&include_all_commits=true&count_private=true&theme=github_dark_dimmed&hide=stars&line_height=28&rank_icon=github' -o stats.svg
+
+      - name: Download streak stats
+        run: curl 'https://carlosvinicius-readme-streak-stats.vercel.app/?user=carlosvinicius&background=24292f&border=373e47&stroke=373e47&currStreakNum=adbac7&sideNums=adbac7&sideLabels=adbac7&dates=adbac7&ring=539bf5&currStreakLabel=539bf5&fire=539bf5' -o streak-stats.svg
+
+      - name: Download activity graph
+        run: curl 'https://carlosvinicius-activity-graph.vercel.app/graph/?username=carlosvinicius&theme=github-dark-dimmed&radius=6&area=true' -o activity-graph.svg
+
+      - name: Download repo card (itaucripto-php)
+        run: curl 'https://carlosvinicius-readme-stats.vercel.app/api/pin/?username=inicialsolucoes&repo=itaucripto-php&theme=github_dark_dimmed' -o repo-card-itaucripto-php.svg
+
+      - name: Download repo card (rdstation-php)
+        run: curl 'https://carlosvinicius-readme-stats.vercel.app/api/pin/?username=inicialsolucoes&repo=rdstation-php&theme=github_dark_dimmed' -o repo-card-rdstation-php.svg
+
+      - name: Download wakatime
+        run: curl 'https://carlosvinicius-readme-stats.vercel.app/api/wakatime?username=carlosvinicius&range=all_time&theme=github_dark_dimmed&layout=compact' -o wakatime.svg
+
+      - name: Download top languages
+        run: curl 'https://carlosvinicius-readme-stats.vercel.app/api/top-langs/?username=carlosvinicius&layout=compact&langs_count=10&theme=github_dark_dimmed' -o top-langs.svg
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: assets
+          path: |
+            stats.svg
+            streak-stats.svg
+            activity-graph.svg
+            repo-card-itaucripto-php.svg
+            repo-card-rdstation-php.svg
+            wakatime.svg
+            top-langs.svg
+
+  push-assets:
+    runs-on: ubuntu-latest
+    name: Push assets
+    needs: [download-assets]
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/download-artifact@v4
+        with:
+          name: assets
+          path: assets
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GIT_TOKEN }}
+        with:
+          commit_message: "chore(assets): update cached GRS files"
+          branch: main
+          commit_user_name: carlosvinicius
+          commit_user_email: carlos@cvps.com.br
+          commit_author: Carlos VPS <carlos@cvps.com.br>
