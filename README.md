@@ -1,24 +1,7 @@
 ![](https://komarev.com/ghpvc/?username=carlosvinicius&color=blue)
-[![wakatime](https://wakatime.com/badge/user/e9844ca1-5f3b-4e8f-8305-3d9b50cc41ec.svg)](https://wakatime.com/@e9844ca1-5f3b-4e8f-8305-3d9b50cc41ec)
 
-## Hi there 👋, I'm Carlos!
+## Hi there 👋, nice to see you here!
+### I'm Carlos, Staff Software Engineer
 
-<!--
-<div class="d-block">
-  <a href="https://github.com/anuraghazra/github-readme-stats" title="GitHub Readme Stats"><img src="https://raw.githubusercontent.com/fabianocouto/fabianocouto/main/assets/stats.svg" alt="fabianocouto" width=48.7% align=left /></a>
-  <a href="https://github.com/denvercoder1/github-readme-streak-stats" title="Github Readme Streak Stats"><img src="https://raw.githubusercontent.com/fabianocouto/fabianocouto/main/assets/streak-stats.svg" alt="fabianocouto" width=48.7% /></a>
-</div>
-<br>
-<a href="https://github.com/Ashutosh00710/github-readme-activity-graph" title="Github Readme Activity Stats"><img src="https://raw.githubusercontent.com/fabianocouto/fabianocouto/main/assets/activity-graph.svg" alt="fabianocouto" width=99.8% /></a>
-
-
-<div class="d-block">
-  <a href="https://github.com/anuraghazra/github-readme-stats" title="Wakatime"><img src="https://raw.githubusercontent.com/fabianocouto/fabianocouto/main/assets/wakatime.svg" alt="fabianocouto" width=49.5% align=left /></a>
-  <a href="https://github.com/anuraghazra/github-readme-stats" title="Langs"><img src="https://raw.githubusercontent.com/fabianocouto/fabianocouto/main/assets/top-langs.svg" alt="fabianocouto" width=48% /></a>
-</div>
-
--->
-
-<div class="d-block"> 
-  <a href="https://www.linkedin.com/in/carlosvinicius/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>  
-</div>
+### 👋 Find me on
+<p dir="auto"><a href="https://github.com/carlosvinicius"><img alt="Github" src="https://camo.githubusercontent.com/d9e4f27c293cdddbe1617e1e8fe08ac8d338183dcee641d81757020bb86d592d/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769744875622d2532333132313030452e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d476974687562266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/GitHub-%2312100E.svg?&amp;style=for-the-badge&amp;logo=Github&amp;logoColor=white" style="max-width: 100%;"></a> <a href="https://twitter.com/carlosvpsilva" rel="nofollow"><img alt="Twitter" src="https://camo.githubusercontent.com/d6e92271b443f430f506ee08463608285ba49ecae3b16734279d12b168a14f6f/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f747769747465722d2532333144413146322e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d74776974746572266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&amp;style=for-the-badge&amp;logo=twitter&amp;logoColor=white" style="max-width: 100%;"></a> <a href="https://www.linkedin.com/in/carlosvinicius/" rel="nofollow"><img alt="LinkedIn" src="https://camo.githubusercontent.com/f8a73f5eba528ac3d7c6faef42df52f90787b49c8d79712069155108acf15407/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6c696e6b6564696e2d2532333030373742352e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d6c696e6b6564696e266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/linkedin-%230077B5.svg?&amp;style=for-the-badge&amp;logo=linkedin&amp;logoColor=white" style="max-width: 100%;"></a> <a href="https://medium.com/@carlosvps" rel="nofollow"><img alt="Medium" src="https://camo.githubusercontent.com/5a949cdbcf5298569490b84c8f1cd6d6b4058684b41f300198b08d6f4b096802/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f6d656469756d2d2532333132313030452e7376673f267374796c653d666f722d7468652d6261646765266c6f676f3d6d656469756d266c6f676f436f6c6f723d7768697465" data-canonical-src="https://img.shields.io/badge/medium-%2312100E.svg?&amp;style=for-the-badge&amp;logo=medium&amp;logoColor=white" style="max-width: 100%;"></a></p>
